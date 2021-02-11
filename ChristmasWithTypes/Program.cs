@@ -8,7 +8,7 @@ namespace ChristmasWithTypes
         {
             var xmas = new Christmas();
 
-            var xmasDay = Christmas.Day.Thursday;
+            var xmasDay = Christmas.Day.Friday;
 
             //done set Santa's name to Kris Kringle
             xmas.Santa = "Kris Kringle";
@@ -18,6 +18,8 @@ namespace ChristmasWithTypes
 
             //done Set the TreeHeight to 10
             xmas.TreeHeight = 10;
+
+            //$ string interpolation - 
 
             Console.WriteLine($"This year christmas falls on {xmasDay} \n");
             Console.WriteLine($"Our tree will be {xmas.TreeHeight} feet high \n");

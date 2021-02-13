@@ -25,6 +25,7 @@ namespace ChristmasWithTypes
             Console.WriteLine($"Our tree will be {xmas.TreeHeight} feet high \n");
             Console.WriteLine("Here are the presents we would like:");
 
+            /*the target framework netcoreapp3.0 is out of support*/
             foreach (var present in xmas.Presents)
             {
                 Console.WriteLine($"    {present}");
